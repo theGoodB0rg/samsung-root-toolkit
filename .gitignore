@@ -1,0 +1,22 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+dist/
+build/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Per-session runtime output — never commit device data
+runs/*/artifacts/
+runs/*/logs/
+runs/*/evidence/
+runs/*/.lock
+
+# Tool binaries are downloaded at bootstrap time, not vendored
+tools/bin/
+
+# Local scratch
+*.log
